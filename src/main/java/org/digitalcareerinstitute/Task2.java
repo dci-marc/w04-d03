@@ -23,7 +23,6 @@ public class Task2 {
             .append(yearOfBirth);
 
         if (builder.length() < 8) {
-            System.out.println("The resulting secret is too short.");
             throw new IllegalArgumentException("The resulting secret is too short.");
         }
 

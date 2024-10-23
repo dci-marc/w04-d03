@@ -4,7 +4,7 @@ package org.digitalcareerinstitute;
 public class Task3 {
 
     public  static void main(String[] args) {
-        String text = "A dogmatic cat buys dogecoin to become rich and buy hotdogs every day.";
+        String text = "A dogmatic dog buys dogecoin to become rich and buy hotdogs every day.";
         String result = text.replaceAll("\\bdog\\b", "cat");
         System.out.println(result);
     }
